@@ -1,0 +1,28 @@
+**********************Query2c strating *********************
+
+  SELECT   Q.col_1, Q.col_1
+  FROM     Q
+  WHERE   Q.col_3 > Q.col_3 AND Q.col_4 < Q.col_4
+
+The NestedLoopJoin algorithm for query2c takes 6445170 nanoseconds.
+
+
+Number of inputs : R=200 et S=300
+
+
+Here are the output tuples for query 2c : 
+
+
+975055 795743
+
+975055 795743
+
+1981898 795743
+
+1981898 975055
+
+1981898 795743
+
+1981898 975055
+
+Number of outputs : 6 tuples

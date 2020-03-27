@@ -1,0 +1,78 @@
+Script started on 2020-01-20 21:08:51+0100
+-olympe$ make test
+cd tests; whoami; make jointest
+cazin
+make[1]: Entering directory '/homes/cazin/Documents/DBSys/TP2/minjava/javaminibase/src/tests'
+/usr/lib/jvm/java-11-openjdk-amd64/bin/javac -classpath ./.. TestDriver.java JoinTest.java
+Note: JoinTest.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+/usr/lib/jvm/java-11-openjdk-amd64/bin/java  -classpath ./.. tests.JoinTest
+Replacer: Clock
+
+
+
+Any resemblance of persons in this database to people living or dead
+is purely coincidental. The contents of this database do not reflect
+the views of the University, the Computer  Sciences Department or the
+developers...
+
+**********************Query2a strating *********************
+  SELECT   Q.col_1, Q.col_1
+  FROM     Q
+  WHERE    Q.col_3 <  Q.col3
+
+After Building btree index on q.3.
+
+The IESelfjoin algorithm for query2a takes 4320489 nanoseconds. 
+The NestedLoopJoin algorithm for query2a takes 162 nanoseconds. 
+
+IESelfJoin:
+
+[1981898, 975055]
+[1981898, 795743]
+[975055, 795743]
+
+
+Finished joins testing
+join tests completed successfully
+make[1]: Leaving directory '/homes/cazin/Documents/DBSys/TP2/minjava/javaminibase/src/tests'
+-olympe$ make test
+cd tests; whoami; make jointest
+cazin
+make[1]: Entering directory '/homes/cazin/Documents/DBSys/TP2/minjava/javaminibase/src/tests'
+/usr/lib/jvm/java-11-openjdk-amd64/bin/javac -classpath ./.. TestDriver.java JoinTest.java
+Note: JoinTest.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+/usr/lib/jvm/java-11-openjdk-amd64/bin/java  -classpath ./.. tests.JoinTest
+Replacer: Clock
+
+
+
+Any resemblance of persons in this database to people living or dead
+is purely coincidental. The contents of this database do not reflect
+the views of the University, the Computer  Sciences Department or the
+developers...
+
+**********************Query2a strating *********************
+  SELECT   Q.col_1, Q.col_1
+  FROM     Q
+  WHERE    Q.col_3 <  Q.col3
+
+After Building btree index on q.3.
+
+The IESelfjoin algorithm for query2a takes 130 nanoseconds. 
+The NestedLoopJoin algorithm for query2a takes 684199 nanoseconds. 
+
+NLJ:
+
+[795743, 1981898]
+[795743, 975055]
+[975055, 1981898]
+
+
+Finished joins testing
+join tests completed successfully
+make[1]: Leaving directory '/homes/cazin/Documents/DBSys/TP2/minjava/javaminibase/src/tests'
+-olympe$ exit
+
+Script done on 2020-01-20 21:10:16+0100

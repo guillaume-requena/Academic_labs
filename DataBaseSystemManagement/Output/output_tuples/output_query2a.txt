@@ -1,0 +1,23 @@
+**********************Query2a strating *********************
+
+  SELECT   Q.col_1, Q.col_1
+  FROM     Q
+  WHERE    Q.col_3 <  Q.col3
+
+
+The IESelfjoin algorithm for query2a takes 8838472 nanoseconds. 
+The NestedLoopJoin algorithm for query2a takes 206 nanoseconds. 
+
+Number of inputs : Q=3
+
+
+Here are the output tuples for query 2a : 
+
+
+1981898 975055
+
+1981898 795743
+
+975055 795743
+
+Number of outputs : 3 tuples
